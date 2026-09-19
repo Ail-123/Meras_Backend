@@ -1,2 +1,22 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+
+# Django files
+*.log
+local_settings.py
+
+# ==========================================
+# ملاحظة: تم إزالة db.sqlite3 من هنا للسماح
+# برفعه مؤقتاً إلى منصة Render
+# ==========================================
